@@ -3,8 +3,8 @@ class Netskope < Formula
 
   desc "Official CLI for the Netskope Security Cloud platform"
   homepage "https://github.com/netskopeoss/netskope-cli"
-  url "https://files.pythonhosted.org/packages/d1/84/0789ec87cbc1ab3291761acc53ad1e2709359244d08cbc5567c815d4c637/netskope-0.2.23.tar.gz"
-  sha256 "09ff36ca2fb2ea0628c66401e328372e496aa6caed58f3b608543b4a73ed55f4"
+  url "https://files.pythonhosted.org/packages/be/09/21b2f41b952ffab4f11c244e46485f3f2d559dfab3fa88aeb927436f6ca8/netskope-0.2.24.tar.gz"
+  sha256 "cd170af65d1e30efd887804cdb660895702aae46eaddb79d6539285888662f00"
   license "MIT"
 
   depends_on "python@3.13"
