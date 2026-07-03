@@ -3,8 +3,8 @@ class Netskope < Formula
 
   desc "Official CLI for the Netskope Security Cloud platform"
   homepage "https://github.com/netskopeoss/netskope-cli"
-  url "https://files.pythonhosted.org/packages/88/51/928b6d3aedcef9099e7550cfeaf6e6bed769a922adfa07f6ba1ff49d9cd3/netskope-1.4.2.tar.gz"
-  sha256 "8fe906f7d35f675ea261306b52db6b10db316aed4dfa3078053cd5f108a9f97e"
+  url "https://files.pythonhosted.org/packages/03/06/25f83065bba61c3efe459a7998bc04d883bb04bc515fb88d0796d4e90bda/netskope-1.4.3.tar.gz"
+  sha256 "dadd522913a31d515d37ee32fb902beaf10440444b3f5fe526fce223ab38af9a"
   license "MIT"
 
   depends_on "python@3.13"
@@ -51,8 +51,8 @@ class Netskope < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz"
-    sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
+    url "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz"
+    sha256 "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848"
   end
 
   resource "jaraco-context" do
@@ -101,8 +101,8 @@ class Netskope < Formula
   end
 
   resource "pydantic-settings" do
-    url "https://files.pythonhosted.org/packages/52/6d/fffca34caecc4a3f97bda81b2098da5e8ab7efc9a66e819074a11955d87e/pydantic_settings-2.13.1.tar.gz"
-    sha256 "b4c11847b15237fb0171e1462bf540e294affb9b86db4d9aa5c01730bdbe4025"
+    url "https://files.pythonhosted.org/packages/5c/b5/8f48e906c3e0205276e8bd8cb7512217a87b2685304d64be27cad5b3019f/pydantic_settings-2.14.2.tar.gz"
+    sha256 "c19dd64b19097f1de80184f0cc7b0272a13ae6e170cbf240a3e27e381ed14a5f"
   end
 
   resource "pygments" do
